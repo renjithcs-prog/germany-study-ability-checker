@@ -2,11 +2,11 @@
 import React, { useState, useCallback } from 'react';
 import { Answers, AssessmentResult, Question, QuizState } from './types';
 import { QUESTIONS } from './constants';
-import { getStudyAbroadAssessment } from './services/geminiService';
-import { Header } from './components/Header';
-import { ProgressBar } from './components/ProgressBar';
-import { QuestionCard } from './components/QuestionCard';
-import { ResultCard } from './components/ResultCard';
+import { getStudyAbroadAssessment } from './geminiService';
+import { Header } from './Header';
+import { ProgressBar } from './ProgressBar';
+import { QuestionCard } from './QuestionCard';
+import { ResultCard } from './ResultCard';
 
 const initialAnswers: Answers = {
   education: '',
