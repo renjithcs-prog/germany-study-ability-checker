@@ -1,0 +1,5 @@
+{
+  "name": "Germany Study Ability Checker",
+  "description": "An application that assesses a user's eligibility and readiness to study in Germany by asking a series of questions and providing an AI-powered evaluation.",
+  "requestFramePermissions": []
+}
